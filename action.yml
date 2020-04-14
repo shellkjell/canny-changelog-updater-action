@@ -5,5 +5,5 @@ inputs:
     description: 'What has changed?'
     required: true
 runs:
-  using: 'node13'
+  using: 'node12'
   main: 'index.js'
