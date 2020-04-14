@@ -1,0 +1,9 @@
+name: 'Canny Changelog Updater'
+description: 'Update Canny changelogs'
+inputs:
+  changelog:  # id of input
+    description: 'What has changed?'
+    required: true
+runs:
+  using: 'node13'
+  main: 'index.js'
