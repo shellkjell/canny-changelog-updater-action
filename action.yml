@@ -5,6 +5,9 @@ inputs:
     description: 'What has changed?'
     required: true
     default: 'Many changes'
+  outputs:
+    testOutput:
+      description: 'Test output'
 runs:
   using: 'node12'
   main: 'index.js'
