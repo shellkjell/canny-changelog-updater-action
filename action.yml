@@ -4,6 +4,7 @@ inputs:
   changelog:  # id of input
     description: 'What has changed?'
     required: true
+    default: 'Many changes'
 runs:
   using: 'node12'
   main: 'index.js'
